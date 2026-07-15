@@ -1,0 +1,55 @@
+{
+    "keywords":  [
+                     "security",
+                     "middleware",
+                     "rate-limiting",
+                     "hmac",
+                     "replay-attack",
+                     "fingerprint",
+                     "ja4",
+                     "express",
+                     "fastify",
+                     "redis",
+                     "prototype-pollution"
+                 ],
+    "version":  "1.0.0",
+    "license":  "MIT",
+    "dependencies":  {
+                         "ioredis":  "^5.4.1"
+                     },
+    "types":  "dist/index.d.ts",
+    "name":  "guox",
+    "scripts":  {
+                     "prepack":  "npm run clean && npm run build",
+                     "clean":  "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+                     "build":  "tsc -p tsconfig.json",
+                     "typecheck":  "tsc -p tsconfig.json --noEmit",
+                     "test":  "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.js",
+                     "test:coverage":  "npm run test -- --coverage"
+                 },
+    "description":  "Production-grade, enterprise Security Layer middleware for Node.js (Express \u0026 Fastify). Cost-based rate limiting, HMAC replay protection, session fingerprint shield, prototype pollution guard, and JA4/TLS fingerprint bridging.",
+    "engines":  {
+                    "node":  "\u003e=18.0.0"
+                },
+    "peerDependencies":  {
+                             "@types/fastify":  "^4.28.0",
+                             "@types/express":  "^4.17.21"
+                         },
+    "author":  "Guox Security Contributors",
+    "peerDependenciesMeta":  {
+                                 "@types/fastify":  {
+                                                        "optional":  true
+                                                    },
+                                 "@types/express":  {
+                                                        "optional":  true
+                                                    }
+                             },
+    "devDependencies":  {
+                             "@types/jest":  "^29.5.12",
+                             "@types/node":  "^20.12.7",
+                             "jest":  "^29.7.0",
+                             "ts-jest":  "^29.1.2",
+                             "typescript":  "^5.4.5"
+                         },
+    "main":  "dist/index.js"
+}
