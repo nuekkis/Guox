@@ -6,7 +6,7 @@
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue)](#)
 [![Node](https://img.shields.io/badge/Node.js-%3E%3D18-green)](#)
-[![License: MIT](https://img.shields.io/badge/license-Apache--2.0-green)](#)
+[![License: MIT](https://img.shields.io/badge/license-Apache--2.0-yellow)](#)
 
 `guox` is a single middleware family that mitigates the entire spectrum
 of advanced application-layer attacks:
