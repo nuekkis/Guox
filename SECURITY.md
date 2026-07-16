@@ -13,7 +13,7 @@ Only the latest major version of `Guox` is actively supported with security upda
 ## Reporting a Vulnerability
 **Do NOT open a public GitHub Issue for security vulnerabilities.**
 Instead, please report security vulnerabilities responsibly by following these steps:
-1. Send an email to **[support@oxirondev.com]** (replace this with your actual contact email).
+1. Send an email to **support@oxirondev.com**.
 2. Include as much detail as possible, such as:
    * A clear description of the vulnerability.
    * Steps to reproduce or a minimal Proof of Concept (PoC).
