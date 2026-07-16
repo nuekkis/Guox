@@ -1,5 +1,5 @@
 # Security Policy 🛡️
-We take the security of `guox` and the applications built on top of it extremely seriously. If you believe you have found a security vulnerability in this project, please follow the disclosure process below.
+We take the security of `Guox` and the applications built on top of it extremely seriously. If you believe you have found a security vulnerability in this project, please follow the disclosure process below.
 ---
 ## Supported Versions
 Only the latest major version of `Guox` is actively supported with security updates. We strongly encourage all users to always run the latest version.
